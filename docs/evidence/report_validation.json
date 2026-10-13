@@ -1,0 +1,17 @@
+{
+  "pages": 19,
+  "page_numbers": true,
+  "source_code_commit": "e57e32cfd08474e9a5e4b684ab3a83e453bc2ab0",
+  "report_char_counts": {
+    "generated_tables_from": "results/phase3/tables",
+    "metric_rows": 49,
+    "unresolved_template_fields": 0,
+    "scientific_config_modified": false,
+    "report_chinese_characters": 6751,
+    "report_nonspace_characters": 14254
+  },
+  "visual_review": "All 19 rendered pages reviewed for layout; 6 equation SVGs and 11 original report figures",
+  "source_numbers": "Generated from frozen metrics/ablation CSV, final 10-split values separated from 5-split history",
+  "citation_metadata": "Existing Crossref-verified six DOI records plus Patankar/JMLR primary references; no new literature expansion",
+  "experiment_design_unchanged": true
+}

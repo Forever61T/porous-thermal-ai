@@ -1,7 +1,11 @@
 {
   "status": "PASS",
-  "files_scanned": 126,
+  "files_scanned": 133,
   "pdfs_scanned": [
+    {
+      "file": "reports/Final_Technical_Report.pdf",
+      "pages": 19
+    },
     {
       "file": "reports/figures/AppendixA_learning.pdf",
       "pages": 1
@@ -87,7 +91,7 @@
       "pages": 1
     }
   ],
-  "total_bytes": 11974823,
+  "total_bytes": 16333629,
   "findings": [],
   "generic_keyword_hits_manually_reviewed": [
     "OPEN_SOURCE_LICENSE_AUDIT.md"
@@ -100,21 +104,25 @@
     "CITATION.cff": "a009dd4b114e9584fd92b025c4c6321dd3e8779e7bb10a2ff6c83411442715ec",
     "CODE_WALKTHROUGH.md": "3ffc9090f471c6fd9fdf2b5278153393d3b15e0c906eaa3a3f1c6e8f19e6ab21",
     "CONTRIBUTING.md": "ec9ab74af854d21830c0cf6253fbebcbcec60b4bcbbb83470a0f625aff0c3daa",
+    "FINAL_ASSIGNMENT_AUDIT.md": "04caf3eba4072b045a92458ef5a0708affd416e9c0329d1da75b610cea65ae3b",
+    "FINAL_ASSIGNMENT_COMPLIANCE.md": "e4d17cc1fd6d4d3cfcd53e13f99d95eb1a646ec0cb2357d3500ead5ae8a4d084",
     "LICENSE": "7505a896f2044dd68ece263c76ecdb26f57ab1184b88cc0a4e3e8fd8656128cf",
     "LICENSE-DATA.md": "b2cc4c5b7f6d8206982e90929944b1aaf7de7121ed6d5cc96f1d6e797914bb26",
     "MAC_REPRODUCE.md": "a8b7a35614c693acd1db7697d72e3110bb108b47ed72a69272bac53f7f1805d8",
     "OPEN_SOURCE_LICENSE_AUDIT.md": "315a6984ab1935eaccb306bfdd59937fb6e394263cfa157f17874feca6c083d0",
-    "README.md": "1adbec53fc194a30411718ffc46bb964e680623b7e4fa9b91433df51eda517d5",
+    "README.md": "177c5c0957654c90be9923c97ea93ad59f99cc1fc4deb9247f608daff892b8dc",
     "configs/no1.json": "caf45671a2ee2ad74889b8f48ad53c68d2791883e07fe6139944417b4be489bc",
     "configs/no2.json": "0380c0c904d4bb52811122870596120e69ae4db298aa49cf0cdfdc10917cfd3b",
     "configs/phase3.json": "2d1a0c89d40a72c087b492198b99774af648a3ad9b1996768ce2cb513670b0de",
     "data/interim/README.md": "78238cdeadc09b883ede7dab4d2a64ecfc8c24b90a6b74589ba7e1316d2031d9",
     "data/processed/no1_samples.csv": "c2a2327a1e559f876d65acaa041069a3aa807124e3bbc8520071c82c32a17651",
     "data/raw/README.md": "554d518d2edf392b0702623f3e083b686fff70f263e44d16bc2e193ae959a113",
-    "docs/evidence/implementation_provenance.json": "6f560fb93f66c3720f044cb5642e20daff5674555309628f58463232b25abc80",
+    "docs/evidence/ci_first_public_commit.json": "12d9a8479157f2e2c2d2b7b2c3ece5eac292fddd2c8a26cff36c11cd19a3772c",
+    "docs/evidence/implementation_provenance.json": "1c606f741128401de86c40ded20af63ba8522856446ad680ca745d07b3e68189",
     "docs/evidence/original_m4_clean_replay.json": "6d8c07747be566e25ef8599c8eaeba85d5151baa5fa0a585dfd6b8dee98dfc5a",
     "docs/evidence/public_no1_replay.json": "56fb5abf3a11af174ab20fe9a59924c1ff56a5cff68e72178abe68b8cf9afa03",
-    "docs/evidence/report_build.json": "d4d2fc61831d25878e26d532f26439dc2d0440f5da0a8cd96a5b0822674fb8ed",
+    "docs/evidence/report_build.json": "fd12f7105202e1f3d867dc43931074850f610e444f2a126a22a452a0e34abcc3",
+    "docs/evidence/report_validation.json": "672ca44bac84b679b6df489dfde5dac2dbae53b945c6c6ee52284d19e8a26777",
     "docs/external_sources.md": "afbeccaee3707ad2121a5f8f81de026357c14ef407bde8b5b0f186d2555b69cf",
     "references/frozen_phase3/README.md": "9914d455b26a83807bc838b6a1beb90c0959d6b540320064fc0d4692d2241455",
     "references/frozen_phase3/metrics_summary.csv": "9a31353b1525b12f9eadb8efb2f127c740b7472c8cee1832169178dcf132b371",
@@ -125,7 +133,9 @@
     "references/historical_no1/metrics_by_split.csv": "a91f579c72d3ca1b57b63cb97b07c8ea721c5e7d4b6c5cc98f6a32b19eedcee7",
     "references/historical_no1/metrics_summary.csv": "868722d5522e6cd8e5d17458056148fcc9054d55522e1d857111d178df870131",
     "references/historical_no1/splits.json": "18689dfcff145ff9688e0c915a2d0971a66dbb16ea7381d8a44c1d1fb34ff847",
-    "reports/Final_Technical_Report.md": "5ae1d0b0fc785534e5b1ec3bd2135a81e3a9e1725a0d5a7d50eb81d386be8fd3",
+    "reports/Final_Technical_Report.html": "1170667d7679a7973e3ff0ebd3e95e365f5435ab0ffe7f284bfc387f8dccf9d3",
+    "reports/Final_Technical_Report.md": "a6d5ce96ac3cb623c56f731784ba73a90cacad7594a246594df683d4a6830101",
+    "reports/Final_Technical_Report.pdf": "17672097bcf3b5f4543c122b7d4b8743659ca2c7b2fbf1a066a4edea26257698",
     "reports/figures/AppendixA_learning.pdf": "97937acb3e43d8c2fed69ada8b5bcbd9ad5918fdd3a44cccaa46c6300e2dc083",
     "reports/figures/AppendixA_learning.png": "96da52d96ddc6d8b8d6e850f809d47afa14cb1a622b7a642a3add0a7047069c7",
     "reports/figures/AppendixB_mesh.pdf": "99e60b2f753ab23fbe39af17de11ccc3e91df7242accb4ae2602790496a3a42b",

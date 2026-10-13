@@ -1,11 +1,13 @@
 # Porous Thermal AI
 
+[![Tests](https://github.com/Forever61T/porous-thermal-ai/actions/workflows/tests.yml/badge.svg)](https://github.com/Forever61T/porous-thermal-ai/actions/workflows/tests.yml)
+
 Physics + machine learning for thermal transport in complex porous structures.
 
 **气凝胶启发的二维多孔介质导热预测：物理模型、机器学习与混合模型的适用边界。**
 
 这是二维数值方法验证，不是实验气凝胶热导率预测，也不是PINN。
-完整[技术报告](reports/Final_Technical_Report.md)、[复现说明](MAC_REPRODUCE.md)、[代码导读](CODE_WALKTHROUGH.md)。
+完整[技术报告](reports/Final_Technical_Report.md)（[PDF](reports/Final_Technical_Report.pdf)）、[复现说明](MAC_REPRODUCE.md)、[代码导读](CODE_WALKTHROUGH.md)。
 
 ## Why this project?
 
@@ -118,3 +120,5 @@ MacBook Air M4、macOS27.0、Python3.12.14、CPU。
 
 物理/结构动机来自Bruggeman、Wei等形貌导热工作；工程思路参考Moosavi等母结构分组、MAST-ML和OpenPNM；RF/Ridge使用scikit-learn。
 详见[归属说明](docs/external_sources.md)。代码和文稿由Codex辅助实现与整理；提交者仍需阅读、核对并按课程要求披露，不声称由学生手工独立编写全部代码。
+
+课程[逐项符合性](FINAL_ASSIGNMENT_COMPLIANCE.md)与[最终验收/扣分风险](FINAL_ASSIGNMENT_AUDIT.md)。

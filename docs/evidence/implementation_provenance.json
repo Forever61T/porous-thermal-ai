@@ -30,5 +30,20 @@
     "src/phase3/figures.py: optional reality plot only",
     "scripts/: public No1-only entry and verification"
   ],
-  "scientific_parameters_or_splits_changed": false
+  "scientific_parameters_or_splits_changed": false,
+  "license_audit_primary_sources": {
+    "checked": "2026-10-14",
+    "Aerogel_ML_Neo4j": {
+      "license": null,
+      "commit": "dbe5489f69263e89112b60e5a0e29ba84a0c3f30",
+      "raw_git_blob_sha_matches_local": "5bb4f4bc73d0a07d826c12179d38f8c19edc9c6c"
+    },
+    "Programmable-MXene-Aerogel": "BSD-3-Clause",
+    "tools-cp-porousmat": "MIT",
+    "TherML": "MIT",
+    "MAST-ML": "MIT",
+    "OpenPNM": "MIT",
+    "ACS_Figshare_SI": "CC BY-NC 4.0",
+    "MXene_Zenodo": "Not independently verified this round (API timeout); not redistributed"
+  }
 }
