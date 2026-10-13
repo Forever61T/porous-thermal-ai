@@ -97,7 +97,7 @@ python scripts/run_all.py
 
 MacBook Air M4、macOS27.0、Python3.12.14、CPU。
 原完整本地干净环境流程约43.4秒（含第三方Excel审计，不含安装），9测试通过，49指标行/70划分与冻结参考一致。
-公开版默认仅运行完整No.1科学流程，不需要下载外部数据；首次独立公共版运行实测38.5秒，证据见`docs/evidence/public_no1_replay.json`。
+公开版默认仅运行完整No.1科学流程，不需要下载外部数据；首次独立公共版运行实测38.5秒；随后从公开GitHub重新clone并从零重算38.6秒，49行指标最大差0、70计划相同、9测试通过。证据见`docs/evidence/public_no1_replay.json`和`docs/evidence/remote_clone_m4_replay.json`。
 
 10次同分布分组留出；固定外推区域的10个seed只改变森林，不能当10个独立OOD。CI跑解析/泄漏单元测试，完整数值复现以M4记录为准。
 

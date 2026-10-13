@@ -13,5 +13,8 @@
   "visual_review": "All 19 rendered pages reviewed for layout; 6 equation SVGs and 11 original report figures",
   "source_numbers": "Generated from frozen metrics/ablation CSV, final 10-split values separated from 5-split history",
   "citation_metadata": "Existing Crossref-verified six DOI records plus Patankar/JMLR primary references; no new literature expansion",
-  "experiment_design_unchanged": true
+  "experiment_design_unchanged": true,
+  "report_png_rebuild_byte_identical": 11,
+  "report_md_rebuild_byte_identical": true,
+  "pdf_timestamp_differences_are_not_numerical_changes": true
 }

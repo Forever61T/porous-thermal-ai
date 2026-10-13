@@ -1,0 +1,10 @@
+{
+  "private_phase3_frozen_files_verified": 44,
+  "private_scientific_change": false,
+  "public_code_snapshot": "e57e32cfd08474e9a5e4b684ab3a83e453bc2ab0",
+  "public_report_revision": "b9f87cd4c8d675a4287e1dad42dce7c4a2295ccd",
+  "experiment_parameters_changed": false,
+  "public_pipeline_default_external_data": false,
+  "pdf_text_check": "PASS after Unicode normalization (PDF has split whitespace/compatibility glyphs)",
+  "report_pages": 19
+}

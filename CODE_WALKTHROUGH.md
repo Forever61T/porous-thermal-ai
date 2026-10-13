@@ -28,3 +28,7 @@
 `ablation_summary.csv`：输入信息消融；`residual_diagnostics.csv`：残差可学性。
 `parameters.json`：每个训练集拟合的1p/3p参数；`mesh_audit_30_cases.csv`：数值细化误差。
 负R²、负预测和物理界限越界都保留，不因结果难看而删行。
+
+## 最终文稿与图件的来源
+
+`python scripts/build_report.py` 从模板和CSV重建报告Markdown，`python scripts/build_report_figures.py` 重建报告用图。它们不训练新模型。最终PDF是审阅后的版本文件；模型流程不依赖Chrome/PDF排版工具。模板和参考文献源在`reports/templates/`。
