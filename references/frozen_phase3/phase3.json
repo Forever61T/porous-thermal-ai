@@ -1,0 +1,25 @@
+{
+  "seed": 20261013,
+  "group_repeats": 10,
+  "train_fractions": [0.25, 0.5, 0.75, 1.0],
+  "test_fraction": 0.2,
+  "rf_trees": 128,
+  "rf_min_leaf": 3,
+  "rf_jobs": 1,
+  "ridge_alpha": 1.0,
+  "permutation_repeats": 5,
+  "bootstrap_repeats": 2000,
+  "A0": ["porosity"],
+  "A1": ["porosity", "interface_density", "mean_pore_diameter_px"],
+  "A2": ["porosity", "interface_density", "mean_pore_diameter_px", "anisotropy", "solid_span_fraction", "pore_largest_fraction", "bottleneck", "section_cv", "straight_solid_fraction"],
+  "descriptor_blocks": {
+    "length_interface": ["interface_density", "mean_pore_diameter_px"],
+    "orientation": ["anisotropy"],
+    "connectivity": ["solid_span_fraction", "pore_largest_fraction", "straight_solid_fraction"],
+    "sections": ["bottleneck", "section_cv"]
+  },
+  "fixed_region_protocols": ["middle_phi_interpolation", "high_phi_extrapolation", "anisotropic_family_shift"],
+  "mesh_audit": "all 3 families x 5 porosities x both rotations, replicate 00; 30 geometries, grids 64/128/256",
+  "raw_phase2_frozen": true,
+  "hyperparameter_search": false
+}

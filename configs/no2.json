@@ -1,0 +1,21 @@
+{
+  "project": "no2",
+  "seed": 20261013,
+  "test_fraction": 0.2,
+  "split_repeats": 10,
+  "train_fractions": [0.25, 0.5, 1.0],
+  "rf_trees": 128,
+  "rf_min_leaf": 3,
+  "rf_jobs": 1,
+  "ridge_alpha": 1.0,
+  "scenario_temperature_K": 298.15,
+  "scenario_pressure_Pa": 101325,
+  "scenario_skeletal_density_kg_m3": 2200.0,
+  "scenario_air_k_W_mK": 0.026,
+  "scenario_mean_free_path_nm": 68.0,
+  "raw_solid_coefficient_W_mK": 1.4,
+  "raw_knudsen_beta": 2.0,
+  "solid_exponent": 2.0,
+  "unverified_label_upper_screen_W_mK": 1.0,
+  "IMPORTANT": "Ambient T/p and skeletal density are assumptions, NOT measured or imputed data. This is a conditional diagnostic only."
+}

@@ -1,0 +1,73 @@
+{
+  "timestamp_utc": "20261013T162608Z",
+  "mode": "public_no1_full_pipeline_replay",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+    "platform": "macOS-27.0-arm64-arm-64bit",
+    "processor": "arm64",
+    "packages": {
+      "numpy": "2.3.5",
+      "pandas": "2.2.3",
+      "openpyxl": "3.1.5",
+      "scipy": "1.16.2",
+      "scikit-learn": "1.7.2",
+      "matplotlib": "3.10.7",
+      "joblib": "1.6.0",
+      "pytest": "8.4.2"
+    },
+    "gpu_used": false
+  },
+  "gpu_used": false,
+  "fresh_no1": true,
+  "optional_external_reality_check": false,
+  "steps": [
+    {
+      "command": [
+        "scripts/audit_data.py"
+      ],
+      "exit_code": 0,
+      "seconds": 10.93453379208222
+    },
+    {
+      "command": [
+        "scripts/run_phase3.py"
+      ],
+      "exit_code": 0,
+      "seconds": 26.19595908303745
+    },
+    {
+      "command": [
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "exit_code": 0,
+      "seconds": 1.3209333328995854
+    }
+  ],
+  "comparison": {
+    "status": "PASS",
+    "n_metric_rows": 49,
+    "n_split_plans": 70,
+    "tolerances": {
+      "absolute": 1e-06,
+      "relative": 1e-07
+    },
+    "max_abs_metric_differences": {
+      "MAE_mean": 0.0,
+      "MAE_std": 0.0,
+      "MAE_count": 0.0,
+      "RMSE_mean": 0.0,
+      "RMSE_std": 0.0,
+      "RMSE_count": 0.0,
+      "R2_mean": 0.0,
+      "R2_std": 0.0,
+      "R2_count": 0.0
+    },
+    "label_csv_sha256": "c2a2327a1e559f876d65acaa041069a3aa807124e3bbc8520071c82c32a17651",
+    "geometry_npz_sha256": "bc40f25b8701a75ac91cef3acdbc42f8233d31d25ea2fa66fe5c63ecc9a07026",
+    "metrics_sha256": "9a31353b1525b12f9eadb8efb2f127c740b7472c8cee1832169178dcf132b371"
+  },
+  "status": "FULL_REPRODUCTION_PASS",
+  "total_seconds": 38.494330500019714
+}

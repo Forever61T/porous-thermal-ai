@@ -1,0 +1,225 @@
+{
+  "status": "PASS",
+  "files_scanned": 126,
+  "pdfs_scanned": [
+    {
+      "file": "reports/figures/AppendixA_learning.pdf",
+      "pages": 1
+    },
+    {
+      "file": "reports/figures/AppendixB_mesh.pdf",
+      "pages": 1
+    },
+    {
+      "file": "reports/figures/AppendixD_importance.pdf",
+      "pages": 1
+    },
+    {
+      "file": "reports/figures/Figure1_method.pdf",
+      "pages": 1
+    },
+    {
+      "file": "reports/figures/Figure2_FVM.pdf",
+      "pages": 1
+    },
+    {
+      "file": "reports/figures/Figure3_ablation.pdf",
+      "pages": 1
+    },
+    {
+      "file": "reports/figures/Figure4_in_distribution.pdf",
+      "pages": 1
+    },
+    {
+      "file": "reports/figures/Figure5_middle_phi.pdf",
+      "pages": 1
+    },
+    {
+      "file": "reports/figures/Figure6_high_phi.pdf",
+      "pages": 1
+    },
+    {
+      "file": "reports/figures/Figure7_family.pdf",
+      "pages": 1
+    },
+    {
+      "file": "reports/figures/Figure8_applicability.pdf",
+      "pages": 1
+    },
+    {
+      "file": "results/phase3/figures/01_method_flow.pdf",
+      "pages": 1
+    },
+    {
+      "file": "results/phase3/figures/02_rotation_and_temperature.pdf",
+      "pages": 1
+    },
+    {
+      "file": "results/phase3/figures/03_structure_ablation.pdf",
+      "pages": 1
+    },
+    {
+      "file": "results/phase3/figures/04_descriptor_diagnostics.pdf",
+      "pages": 1
+    },
+    {
+      "file": "results/phase3/figures/05_learning_curve.pdf",
+      "pages": 1
+    },
+    {
+      "file": "results/phase3/figures/06_prediction_regions.pdf",
+      "pages": 1
+    },
+    {
+      "file": "results/phase3/figures/07_repeated_validation.pdf",
+      "pages": 1
+    },
+    {
+      "file": "results/phase3/figures/08_residual_structure.pdf",
+      "pages": 1
+    },
+    {
+      "file": "results/phase3/figures/10_applicability_map.pdf",
+      "pages": 1
+    },
+    {
+      "file": "results/phase3/figures/11_numerical_refinement.pdf",
+      "pages": 1
+    }
+  ],
+  "total_bytes": 11974823,
+  "findings": [],
+  "generic_keyword_hits_manually_reviewed": [
+    "OPEN_SOURCE_LICENSE_AUDIT.md"
+  ],
+  "generic_keywords_are_not_credentials": true,
+  "excluded_private_history": true,
+  "file_sha256": {
+    ".github/workflows/tests.yml": "bf9086a1a9f34a08c1aa8181b767834bef02930040f199b604f9ea2687539bd1",
+    ".gitignore": "c1b48c9affaaa97870a125b0d1356944419df0ecd84e8c3c8170294caedde9d3",
+    "CITATION.cff": "a009dd4b114e9584fd92b025c4c6321dd3e8779e7bb10a2ff6c83411442715ec",
+    "CODE_WALKTHROUGH.md": "3ffc9090f471c6fd9fdf2b5278153393d3b15e0c906eaa3a3f1c6e8f19e6ab21",
+    "CONTRIBUTING.md": "ec9ab74af854d21830c0cf6253fbebcbcec60b4bcbbb83470a0f625aff0c3daa",
+    "LICENSE": "7505a896f2044dd68ece263c76ecdb26f57ab1184b88cc0a4e3e8fd8656128cf",
+    "LICENSE-DATA.md": "b2cc4c5b7f6d8206982e90929944b1aaf7de7121ed6d5cc96f1d6e797914bb26",
+    "MAC_REPRODUCE.md": "a8b7a35614c693acd1db7697d72e3110bb108b47ed72a69272bac53f7f1805d8",
+    "OPEN_SOURCE_LICENSE_AUDIT.md": "315a6984ab1935eaccb306bfdd59937fb6e394263cfa157f17874feca6c083d0",
+    "README.md": "1adbec53fc194a30411718ffc46bb964e680623b7e4fa9b91433df51eda517d5",
+    "configs/no1.json": "caf45671a2ee2ad74889b8f48ad53c68d2791883e07fe6139944417b4be489bc",
+    "configs/no2.json": "0380c0c904d4bb52811122870596120e69ae4db298aa49cf0cdfdc10917cfd3b",
+    "configs/phase3.json": "2d1a0c89d40a72c087b492198b99774af648a3ad9b1996768ce2cb513670b0de",
+    "data/interim/README.md": "78238cdeadc09b883ede7dab4d2a64ecfc8c24b90a6b74589ba7e1316d2031d9",
+    "data/processed/no1_samples.csv": "c2a2327a1e559f876d65acaa041069a3aa807124e3bbc8520071c82c32a17651",
+    "data/raw/README.md": "554d518d2edf392b0702623f3e083b686fff70f263e44d16bc2e193ae959a113",
+    "docs/evidence/implementation_provenance.json": "6f560fb93f66c3720f044cb5642e20daff5674555309628f58463232b25abc80",
+    "docs/evidence/original_m4_clean_replay.json": "6d8c07747be566e25ef8599c8eaeba85d5151baa5fa0a585dfd6b8dee98dfc5a",
+    "docs/evidence/public_no1_replay.json": "56fb5abf3a11af174ab20fe9a59924c1ff56a5cff68e72178abe68b8cf9afa03",
+    "docs/evidence/report_build.json": "d4d2fc61831d25878e26d532f26439dc2d0440f5da0a8cd96a5b0822674fb8ed",
+    "docs/external_sources.md": "afbeccaee3707ad2121a5f8f81de026357c14ef407bde8b5b0f186d2555b69cf",
+    "references/frozen_phase3/README.md": "9914d455b26a83807bc838b6a1beb90c0959d6b540320064fc0d4692d2241455",
+    "references/frozen_phase3/metrics_summary.csv": "9a31353b1525b12f9eadb8efb2f127c740b7472c8cee1832169178dcf132b371",
+    "references/frozen_phase3/no1.json": "caf45671a2ee2ad74889b8f48ad53c68d2791883e07fe6139944417b4be489bc",
+    "references/frozen_phase3/phase3.json": "2d1a0c89d40a72c087b492198b99774af648a3ad9b1996768ce2cb513670b0de",
+    "references/frozen_phase3/splits.json": "7928da7096d6ed04da3da60bfada5d9b6d0de965d272597b010cc67687a80df4",
+    "references/historical_no1/README.md": "cc5986f2f785b0405ce94128066c5d2c3b4dd0fe80d5d4a853ae968bbf6ee333",
+    "references/historical_no1/metrics_by_split.csv": "a91f579c72d3ca1b57b63cb97b07c8ea721c5e7d4b6c5cc98f6a32b19eedcee7",
+    "references/historical_no1/metrics_summary.csv": "868722d5522e6cd8e5d17458056148fcc9054d55522e1d857111d178df870131",
+    "references/historical_no1/splits.json": "18689dfcff145ff9688e0c915a2d0971a66dbb16ea7381d8a44c1d1fb34ff847",
+    "reports/Final_Technical_Report.md": "5ae1d0b0fc785534e5b1ec3bd2135a81e3a9e1725a0d5a7d50eb81d386be8fd3",
+    "reports/figures/AppendixA_learning.pdf": "97937acb3e43d8c2fed69ada8b5bcbd9ad5918fdd3a44cccaa46c6300e2dc083",
+    "reports/figures/AppendixA_learning.png": "96da52d96ddc6d8b8d6e850f809d47afa14cb1a622b7a642a3add0a7047069c7",
+    "reports/figures/AppendixB_mesh.pdf": "99e60b2f753ab23fbe39af17de11ccc3e91df7242accb4ae2602790496a3a42b",
+    "reports/figures/AppendixB_mesh.png": "fd0fcacb7762918324af9335cb8a6c03e150d23da6c03eb0c27b70a128e7794a",
+    "reports/figures/AppendixD_importance.pdf": "9d52cb9cf624b4c79ffffc6c041501473a4b245e49e83617d20fff1cbb3e444d",
+    "reports/figures/AppendixD_importance.png": "e0c97471f77851f0c776efe0d6763d317b802234094e05ef9ec66e27d357e989",
+    "reports/figures/Figure1_method.pdf": "bd7f78f43aed266e9fb63a0dce8f0d4acbaba42438c18a48c51b0d86d190c143",
+    "reports/figures/Figure1_method.png": "56d348142bf9fe340c51bdb5fd36fed9842e691c374b3bbf07715b9c4e134325",
+    "reports/figures/Figure2_FVM.pdf": "b72f1b3096f5ad980b43b74ddfa681ef9efe54d77f9201232e3d0cf3b4905ff1",
+    "reports/figures/Figure2_FVM.png": "dd68cb286919e84f1b1fea2622c89766ebea3d3475c406a779d350812a625fca",
+    "reports/figures/Figure3_ablation.pdf": "67d8dcb8f3a80846d15efdc861d948edafca9a9f0cdacf7f2911a293dfad11a2",
+    "reports/figures/Figure3_ablation.png": "cb5042286710cc527e54d3116d5c5f44e3ad2add350864953eb638928755c6e4",
+    "reports/figures/Figure4_in_distribution.pdf": "46d34b43f8badbc46b10c517acdc87e1b98559495867bc72cb8c1273a2db0673",
+    "reports/figures/Figure4_in_distribution.png": "de322b50edda7791d1758205f1819e0752dac66b75b3890965d4d986b8c75f45",
+    "reports/figures/Figure5_middle_phi.pdf": "c3e100ea752d242578cd9585aa639d1ada7241d90f25d1eecbeb9fbbf6e8c088",
+    "reports/figures/Figure5_middle_phi.png": "ca06c94497b12bfc96f43323b31f5dd8f38e247abe515bee2ac0266b55deb8d4",
+    "reports/figures/Figure6_high_phi.pdf": "293a431161eee827d363d2489b19ea30289dcf513b43ad10945905a87ea1a7c2",
+    "reports/figures/Figure6_high_phi.png": "311e2f17a44b12ff64d3a95deb16e4a2246aa1553002fa9e941d7d96e0cf6802",
+    "reports/figures/Figure7_family.pdf": "835c8c3bb4fad75406fd47a655eb455a094deb0549f3525ca41e7d7fe61f4020",
+    "reports/figures/Figure7_family.png": "7c5bf37634f39a346e0c854515ba7ea281a2f83fa8c936fb82a3ff9ee680fd24",
+    "reports/figures/Figure8_applicability.pdf": "9b180dd14a7cea8151f82530b8b30d4545fd376020195a6a5e1fe589204e30cc",
+    "reports/figures/Figure8_applicability.png": "9b296ccc5e8fc1f77f76bc032091ee7060dca42b6408d3dec31fe14b2c875372",
+    "reports/figures/equation_1.svg": "6a83a1231f67918aae024eec955b7e51bc0497bb860acf16c64141e7b8931347",
+    "reports/figures/equation_2.svg": "d210207b07be41f10fbfd5aa6815422c02f8a3c16ffc9e7b48dd7f92cc8c1c6f",
+    "reports/figures/equation_3.svg": "3f15f446544c8e3a013ac13ffea5b3981e60d47190cfd7015ba759d3b05fbeef",
+    "reports/figures/equation_4.svg": "6bfacaa6434fbbeea50048ba3f80a1ea6d9d0bd64c8c97059c7d81b67b43a9fd",
+    "reports/figures/equation_5.svg": "5ead1a9e1f582f07b6064c6c0bb7394a6e5c2fd8b4cad4ab0d9162400552cbad",
+    "reports/figures/equation_6.svg": "2458dd5f42dd11bf09e5d453ecc5ce28a62de31bc1a775870768b430300ffa26",
+    "requirements-lock.txt": "572d5f44925ac50d80ac62d2afda2727d77af908c753c8ea8eb54c95a9fa80a2",
+    "requirements.txt": "b8659b3446a82e3eb3e0be96de6633d15cea24239d4de4063687147f96344c4b",
+    "results/phase3/figures/01_method_flow.pdf": "d83a70857fd37c6c2dd65e264f139ff9624052a81536d149b3010f4ecf9b1c81",
+    "results/phase3/figures/01_method_flow.png": "56d348142bf9fe340c51bdb5fd36fed9842e691c374b3bbf07715b9c4e134325",
+    "results/phase3/figures/02_rotation_and_temperature.pdf": "0d66ed0a72b1dfc7076b7ec14c6ddb318333edb17ecc0cead2f8a3e488618539",
+    "results/phase3/figures/02_rotation_and_temperature.png": "dd68cb286919e84f1b1fea2622c89766ebea3d3475c406a779d350812a625fca",
+    "results/phase3/figures/03_structure_ablation.pdf": "edda413c91b604c5154e75675ad05eeea362980fb156e799e4fd0ae8a599806d",
+    "results/phase3/figures/03_structure_ablation.png": "cb5042286710cc527e54d3116d5c5f44e3ad2add350864953eb638928755c6e4",
+    "results/phase3/figures/04_descriptor_diagnostics.pdf": "aca812e5b300cb2ede578f72f1a8eddea8337f678caae9b33883c724ff515287",
+    "results/phase3/figures/04_descriptor_diagnostics.png": "e0c97471f77851f0c776efe0d6763d317b802234094e05ef9ec66e27d357e989",
+    "results/phase3/figures/05_learning_curve.pdf": "d4a0c4a4240a1cc47024503dacbe2a776fa2681297f8c8fba5960d6b95942f85",
+    "results/phase3/figures/05_learning_curve.png": "f1fa1a2e340a217c2a4f16f62eeec41bd157c5a8117c417bc4d812401c8c5609",
+    "results/phase3/figures/06_prediction_regions.pdf": "c358de3b384e7d0885ecd2fd78c1a79f4168d8801f32dccdad036ca994e8834b",
+    "results/phase3/figures/06_prediction_regions.png": "d2c7e81ece8b5d80951dddc8107f703280c28a61928e53326ae2420d15d30050",
+    "results/phase3/figures/07_repeated_validation.pdf": "8764fb5f79489a24730063560f5ca3eaa7682c7b426d4908adb5f7ada464a41d",
+    "results/phase3/figures/07_repeated_validation.png": "9d80e89cfa9847075db48c03bb3dd89d9f2ee78d5734f4684acf0b4078c3110f",
+    "results/phase3/figures/08_residual_structure.pdf": "70b1c007697bf035808277052411e86554931645eca0171fb0b302b633686e35",
+    "results/phase3/figures/08_residual_structure.png": "adeee5b2c75f9ca5bf5260bc3a8cd4b475ece2747e3d1e3c7cc0e393bbacc433",
+    "results/phase3/figures/10_applicability_map.pdf": "7583c971978119dd1b0293a64c83c888d4fce83e327d3f35b561109ce98da142",
+    "results/phase3/figures/10_applicability_map.png": "9b296ccc5e8fc1f77f76bc032091ee7060dca42b6408d3dec31fe14b2c875372",
+    "results/phase3/figures/11_numerical_refinement.pdf": "179124a20d64f773cedc2b6b8d9da4e6e7b97ec1bbe1e7727a1d1bd2ce7bae0b",
+    "results/phase3/figures/11_numerical_refinement.png": "fd0fcacb7762918324af9335cb8a6c03e150d23da6c03eb0c27b70a128e7794a",
+    "results/phase3/tables/ablation_by_run.csv": "fec63873dee1954fad0fe6cf6da5821b7b8cd6b83e0fa04b63ea3a57adca2da2",
+    "results/phase3/tables/ablation_summary.csv": "efe206c0054486b6668d8905ea390e0e0582ce4473b210df7d6c2231d5eaab67",
+    "results/phase3/tables/conditional_group_bootstrap.csv": "b14878a873a60af705d4a57552634eb02349339880bc6adc14afb98d31c1d1a7",
+    "results/phase3/tables/feature_ranges.csv": "ef8271b6e0abfd6f61a662ad3ef8f41d63a38799e951d2c416f503dbd461d12f",
+    "results/phase3/tables/feature_spearman.csv": "8460b926318a4637f5112420eed8df065955f07920c493932048c0ab0bf8acc6",
+    "results/phase3/tables/mesh_audit_30_cases.csv": "bcbd70be95462b54d63bf8978972cf6ed4e34a9ba8951bd57437bd2a72720bb6",
+    "results/phase3/tables/metrics_by_run.csv": "a4d24ed4342fe748bcf32706cd6f70c46bbe6dedfbcc4c1dacecdcdde5d68dfc",
+    "results/phase3/tables/metrics_summary.csv": "9a31353b1525b12f9eadb8efb2f127c740b7472c8cee1832169178dcf132b371",
+    "results/phase3/tables/no1_within_porosity_correlations.csv": "2f7eeb1304c0aca3fd5d2d44447a74751944882bce26f57007f1c9e482462874",
+    "results/phase3/tables/paired_MAE_differences.csv": "946f98a16bdeb0797115e7f8c6205c23b34a7e96dae767aca7dd4a2a514ae6ef",
+    "results/phase3/tables/parameters.json": "0590264997368ed00faf76f40ca861ad2587c4cef14c52b00fa023af9b124b6f",
+    "results/phase3/tables/permutation_by_run.csv": "d2d118231a3e1b127b6189553716b1110250b0a9665290c646d3d390804430b7",
+    "results/phase3/tables/permutation_summary.csv": "128dfdcee11469f0c26f000bf6a0cdedecb5565133a192817f53d256e8c034c2",
+    "results/phase3/tables/prediction_components_first_seed.csv": "1ec3e1f4d77c53f2729480b3b557546e517193dc27c1bdd72b79bf5486e65b4e",
+    "results/phase3/tables/predictions.csv": "b865ffcd6c8fdaf7163c5da0b7d451a96dde5d73ae08b3865de8c46fb5476ec2",
+    "results/phase3/tables/residual_diagnostics.csv": "ed8032b07c064a4819338b676efd5d967178cd2d487dccbe16d477628f5134ea",
+    "results/phase3/tables/splits.json": "7928da7096d6ed04da3da60bfada5d9b6d0de965d272597b010cc67687a80df4",
+    "results/phase3/tables/subdomain_MAE.csv": "ce8b6b595bfa0945bf812ff9e4625fcaa39014b197e26b5c941e3f953cd7380b",
+    "results/tables/metrics_by_split.csv": "a91f579c72d3ca1b57b63cb97b07c8ea721c5e7d4b6c5cc98f6a32b19eedcee7",
+    "results/tables/metrics_summary.csv": "868722d5522e6cd8e5d17458056148fcc9054d55522e1d857111d178df870131",
+    "results/tables/no1_mesh_refinement.csv": "84cb90f0f7b1b026f28a29adc46410e9cd0e37e1831297f561469c3d7f8d90c1",
+    "results/tables/splits.json": "18689dfcff145ff9688e0c915a2d0971a66dbb16ea7381d8a44c1d1fb34ff847",
+    "scripts/_bootstrap.py": "de558d7315969a1cbc42173265792fe7303d048ab0d378577f992bdf22e62623",
+    "scripts/audit_data.py": "e59b3d9b9c44e195bca18e53aa83e35731c03c5abab9a6fd0daaf8be4bc459ee",
+    "scripts/evaluate.py": "144d5d199cb547bf05f83f3f4caa3175e59d47a8571cec9a10ee9fca4de24176",
+    "scripts/run_all.py": "6a54e14d3df5206f62da722baa8d520fdfeb4bc94d8967c166190b06b1b15de5",
+    "scripts/run_phase3.py": "e812262d728e5e3b7f3ce06fa5ebf36e3572aa3e1c391727a0c7b2ebc082c3c0",
+    "src/__init__.py": "a8c254068cf325c29dca44b3b9003e5e4951bc35e3f2b0170f57aa60091ac5fe",
+    "src/common.py": "c855655f6c8f21c3907908b7e1d43239cd2838e44116366c8c8b96c6df0d1ad5",
+    "src/data/__init__.py": "b44e6cf62713ed73193df73ca34b0c5df304f5946b4a68d0c905c45697b397ef",
+    "src/data/clean_data.py": "0e7db5879f690e6f2054a67a117d2049819299f18510c5bb524e62c6e1fcb0eb",
+    "src/data/generate_no1.py": "988feaf86207463cc8cdc98f030d959270587dcd695d7467ecb60ca18936a661",
+    "src/data/load_data.py": "0cc7854f766569cfb89303fa8663dd92c592e0e5108a4da0c0a12f307181d2ac",
+    "src/features/__init__.py": "b44e6cf62713ed73193df73ca34b0c5df304f5946b4a68d0c905c45697b397ef",
+    "src/features/build_features.py": "c24961c7e48d4517ed1cfc132c50b75c1603313b9c077e2fc903a9df38aefd5a",
+    "src/models/__init__.py": "b44e6cf62713ed73193df73ca34b0c5df304f5946b4a68d0c905c45697b397ef",
+    "src/models/ml.py": "e1c397a583597958472a969f80fd5c9b2e113fec8a75b005e7786ca4943d93c4",
+    "src/phase3/__init__.py": "4052376a24d0be952a41a434b7d8b42c448dc858a6c4ba0f454a6b718a53215c",
+    "src/phase3/experiments.py": "d2838d82e7d938e60ee0fd8d00b08eed8081c2b6404347ec023698613e05f1a8",
+    "src/phase3/figures.py": "bee1318bc17cfcac779475367be3e81fdee5551b8f0f5df23e7f37be226f2e33",
+    "src/physics/__init__.py": "b44e6cf62713ed73193df73ca34b0c5df304f5946b4a68d0c905c45697b397ef",
+    "src/physics/thermal_models.py": "29a2b3a8e93060e4e5ba5bbadd349a77fb976419346c511ec4e366418914801d",
+    "tests/test_phase3.py": "fb609538934051ede5f040dad050fd880b31efc0127071c05ebeeaebe83a9ed4",
+    "tests/test_physics.py": "a4629d9b73e8afa1d9d78c54c6b1b1c5a55f7f2b567ef05f7b45391a686bd484",
+    "tests/test_splits.py": "64a3125e016aaf4028d385d37cf0c5656032cbe6061004494e99c77b29c2a2ae"
+  }
+}

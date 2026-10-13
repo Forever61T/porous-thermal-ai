@@ -1,0 +1,34 @@
+{
+  "independently_implemented": true,
+  "author_code_copied": false,
+  "unchanged_files": {
+    "src/__init__.py": "a8c254068cf325c29dca44b3b9003e5e4951bc35e3f2b0170f57aa60091ac5fe",
+    "src/common.py": "c855655f6c8f21c3907908b7e1d43239cd2838e44116366c8c8b96c6df0d1ad5",
+    "src/data/__init__.py": "b44e6cf62713ed73193df73ca34b0c5df304f5946b4a68d0c905c45697b397ef",
+    "src/data/generate_no1.py": "988feaf86207463cc8cdc98f030d959270587dcd695d7467ecb60ca18936a661",
+    "src/data/load_data.py": "0cc7854f766569cfb89303fa8663dd92c592e0e5108a4da0c0a12f307181d2ac",
+    "src/data/clean_data.py": "0e7db5879f690e6f2054a67a117d2049819299f18510c5bb524e62c6e1fcb0eb",
+    "src/features/__init__.py": "b44e6cf62713ed73193df73ca34b0c5df304f5946b4a68d0c905c45697b397ef",
+    "src/features/build_features.py": "c24961c7e48d4517ed1cfc132c50b75c1603313b9c077e2fc903a9df38aefd5a",
+    "src/physics/__init__.py": "b44e6cf62713ed73193df73ca34b0c5df304f5946b4a68d0c905c45697b397ef",
+    "src/physics/thermal_models.py": "29a2b3a8e93060e4e5ba5bbadd349a77fb976419346c511ec4e366418914801d",
+    "src/models/__init__.py": "b44e6cf62713ed73193df73ca34b0c5df304f5946b4a68d0c905c45697b397ef",
+    "src/models/ml.py": "e1c397a583597958472a969f80fd5c9b2e113fec8a75b005e7786ca4943d93c4",
+    "src/phase3/__init__.py": "4052376a24d0be952a41a434b7d8b42c448dc858a6c4ba0f454a6b718a53215c",
+    "scripts/_bootstrap.py": "de558d7315969a1cbc42173265792fe7303d048ab0d378577f992bdf22e62623",
+    "configs/no1.json": "caf45671a2ee2ad74889b8f48ad53c68d2791883e07fe6139944417b4be489bc",
+    "configs/no2.json": "0380c0c904d4bb52811122870596120e69ae4db298aa49cf0cdfdc10917cfd3b",
+    "configs/phase3.json": "2d1a0c89d40a72c087b492198b99774af648a3ad9b1996768ce2cb513670b0de",
+    "requirements.txt": "b8659b3446a82e3eb3e0be96de6633d15cea24239d4de4063687147f96344c4b",
+    "requirements-lock.txt": "572d5f44925ac50d80ac62d2afda2727d77af908c753c8ea8eb54c95a9fa80a2",
+    "tests/test_splits.py": "64a3125e016aaf4028d385d37cf0c5656032cbe6061004494e99c77b29c2a2ae",
+    "tests/test_phase3.py": "fb609538934051ede5f040dad050fd880b31efc0127071c05ebeeaebe83a9ed4",
+    "tests/test_physics.py": "a4629d9b73e8afa1d9d78c54c6b1b1c5a55f7f2b567ef05f7b45391a686bd484"
+  },
+  "public_orchestration_changes": [
+    "src/phase3/experiments.py: optional external data branch only",
+    "src/phase3/figures.py: optional reality plot only",
+    "scripts/: public No1-only entry and verification"
+  ],
+  "scientific_parameters_or_splits_changed": false
+}

@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Please cite this software and its report if you reuse the workflow or synthetic dataset."
+type: software
+title: "Porous Thermal AI: applicability boundaries of physics, random forest and residual hybrid models"
+authors:
+  - name: "Forever61T"
+    affiliation: "Independent course project; GitHub maintainer handle"
+version: 1.0.0
+date-released: 2026-10-14
+repository-code: "https://github.com/Forever61T/porous-thermal-ai"
+url: "https://github.com/Forever61T/porous-thermal-ai"
+license: MIT
+keywords:
+  - porous materials
+  - thermal conductivity
+  - finite volume method
+  - residual learning
+  - model applicability
+abstract: >-
+  A frozen 2D numerical benchmark comparing effective-medium physics,
+  random forests and additive physics-plus-ML residual correction across
+  grouped in-distribution, held-out intermediate porosity, high-porosity
+  extrapolation and unseen structural-family tests. Experimental aerogel
+  prediction and universal hybrid superiority are not claimed.

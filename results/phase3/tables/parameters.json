@@ -1,0 +1,1402 @@
+[
+  {
+    "protocol": "grouped_in_distribution",
+    "seed": 20261013,
+    "fraction": 0.25,
+    "n_train": 72,
+    "n_test": 72,
+    "n_train_groups": 36,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8013827617065756
+    },
+    "physics_3p": {
+      "theta": [
+        -0.17562205924239702,
+        1.1713723160525564,
+        -0.014156942571326544
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "grouped_in_distribution",
+    "seed": 20261013,
+    "fraction": 0.5,
+    "n_train": 144,
+    "n_test": 72,
+    "n_train_groups": 72,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8796370020204964
+    },
+    "physics_3p": {
+      "theta": [
+        -0.13868861989573808,
+        1.4494030218616467,
+        -0.16490347678312628
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "grouped_in_distribution",
+    "seed": 20261013,
+    "fraction": 0.75,
+    "n_train": 216,
+    "n_test": 72,
+    "n_train_groups": 108,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8528497373269164
+    },
+    "physics_3p": {
+      "theta": [
+        -0.1580570742706961,
+        1.4377312971802931,
+        -0.13718977695285398
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "grouped_in_distribution",
+    "seed": 20261013,
+    "fraction": 1.0,
+    "n_train": 288,
+    "n_test": 72,
+    "n_train_groups": 144,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.833760556496358
+    },
+    "physics_3p": {
+      "theta": [
+        -0.20320060925732536,
+        1.346991422448177,
+        0.38214945830909836
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "middle_phi_interpolation",
+    "seed": 20261013,
+    "fraction": 1.0,
+    "n_train": 288,
+    "n_test": 72,
+    "n_train_groups": 144,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8333132673338466
+    },
+    "physics_3p": {
+      "theta": [
+        -0.20727557525601406,
+        1.1949109696959876,
+        0.4130476290103237
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "high_phi_extrapolation",
+    "seed": 20261013,
+    "fraction": 1.0,
+    "n_train": 288,
+    "n_test": 72,
+    "n_train_groups": 144,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.840842357039967
+    },
+    "physics_3p": {
+      "theta": [
+        -0.1935719021705088,
+        1.3501950771921107,
+        0.2603465022123714
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "anisotropic_family_shift",
+    "seed": 20261013,
+    "fraction": 1.0,
+    "n_train": 240,
+    "n_test": 120,
+    "n_train_groups": 120,
+    "n_test_groups": 60,
+    "physics_1p": {
+      "a": 0.8098679267059302
+    },
+    "physics_3p": {
+      "theta": [
+        -0.2205391930314399,
+        2.0846808132797485,
+        0.39513520680804215
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "grouped_in_distribution",
+    "seed": 20261014,
+    "fraction": 0.25,
+    "n_train": 72,
+    "n_test": 72,
+    "n_train_groups": 36,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8172700959146948
+    },
+    "physics_3p": {
+      "theta": [
+        -0.22079385476858598,
+        1.8015560613707862,
+        0.280917525723906
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "grouped_in_distribution",
+    "seed": 20261014,
+    "fraction": 0.5,
+    "n_train": 144,
+    "n_test": 72,
+    "n_train_groups": 72,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8005027793607777
+    },
+    "physics_3p": {
+      "theta": [
+        -0.22523738698139198,
+        1.2357717501662682,
+        0.6037328452385453
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "grouped_in_distribution",
+    "seed": 20261014,
+    "fraction": 0.75,
+    "n_train": 216,
+    "n_test": 72,
+    "n_train_groups": 108,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8321090617551775
+    },
+    "physics_3p": {
+      "theta": [
+        -0.18349991532507917,
+        1.2265101830560339,
+        0.3872156618918664
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "grouped_in_distribution",
+    "seed": 20261014,
+    "fraction": 1.0,
+    "n_train": 288,
+    "n_test": 72,
+    "n_train_groups": 144,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8381537211821196
+    },
+    "physics_3p": {
+      "theta": [
+        -0.1787341382002412,
+        1.2919338064064485,
+        0.37317631753683506
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "middle_phi_interpolation",
+    "seed": 20261014,
+    "fraction": 1.0,
+    "n_train": 288,
+    "n_test": 72,
+    "n_train_groups": 144,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8333132673338466
+    },
+    "physics_3p": {
+      "theta": [
+        -0.20727557525601406,
+        1.1949109696959876,
+        0.4130476290103237
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "high_phi_extrapolation",
+    "seed": 20261014,
+    "fraction": 1.0,
+    "n_train": 288,
+    "n_test": 72,
+    "n_train_groups": 144,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.840842357039967
+    },
+    "physics_3p": {
+      "theta": [
+        -0.1935719021705088,
+        1.3501950771921107,
+        0.2603465022123714
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "anisotropic_family_shift",
+    "seed": 20261014,
+    "fraction": 1.0,
+    "n_train": 240,
+    "n_test": 120,
+    "n_train_groups": 120,
+    "n_test_groups": 60,
+    "physics_1p": {
+      "a": 0.8098679267059302
+    },
+    "physics_3p": {
+      "theta": [
+        -0.2205391930314399,
+        2.0846808132797485,
+        0.39513520680804215
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "grouped_in_distribution",
+    "seed": 20261015,
+    "fraction": 0.25,
+    "n_train": 72,
+    "n_test": 72,
+    "n_train_groups": 36,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8082564231248611
+    },
+    "physics_3p": {
+      "theta": [
+        -0.1403057953993819,
+        1.3511754329502992,
+        0.22647554772357534
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "grouped_in_distribution",
+    "seed": 20261015,
+    "fraction": 0.5,
+    "n_train": 144,
+    "n_test": 72,
+    "n_train_groups": 72,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8272894360432108
+    },
+    "physics_3p": {
+      "theta": [
+        -0.19897763224032616,
+        1.446303836415233,
+        0.4782571153619791
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "grouped_in_distribution",
+    "seed": 20261015,
+    "fraction": 0.75,
+    "n_train": 216,
+    "n_test": 72,
+    "n_train_groups": 108,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.814196464199823
+    },
+    "physics_3p": {
+      "theta": [
+        -0.22378587362613556,
+        1.3921361472974085,
+        0.284606148424476
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "grouped_in_distribution",
+    "seed": 20261015,
+    "fraction": 1.0,
+    "n_train": 288,
+    "n_test": 72,
+    "n_train_groups": 144,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8249579070275773
+    },
+    "physics_3p": {
+      "theta": [
+        -0.21753580509050488,
+        1.4191512556138879,
+        0.232581330062667
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "middle_phi_interpolation",
+    "seed": 20261015,
+    "fraction": 1.0,
+    "n_train": 288,
+    "n_test": 72,
+    "n_train_groups": 144,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8333132673338466
+    },
+    "physics_3p": {
+      "theta": [
+        -0.20727557525601406,
+        1.1949109696959876,
+        0.4130476290103237
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "high_phi_extrapolation",
+    "seed": 20261015,
+    "fraction": 1.0,
+    "n_train": 288,
+    "n_test": 72,
+    "n_train_groups": 144,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.840842357039967
+    },
+    "physics_3p": {
+      "theta": [
+        -0.1935719021705088,
+        1.3501950771921107,
+        0.2603465022123714
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "anisotropic_family_shift",
+    "seed": 20261015,
+    "fraction": 1.0,
+    "n_train": 240,
+    "n_test": 120,
+    "n_train_groups": 120,
+    "n_test_groups": 60,
+    "physics_1p": {
+      "a": 0.8098679267059302
+    },
+    "physics_3p": {
+      "theta": [
+        -0.2205391930314399,
+        2.0846808132797485,
+        0.39513520680804215
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "grouped_in_distribution",
+    "seed": 20261016,
+    "fraction": 0.25,
+    "n_train": 72,
+    "n_test": 72,
+    "n_train_groups": 36,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8482736874180731
+    },
+    "physics_3p": {
+      "theta": [
+        -0.18305608768592457,
+        1.338222104753162,
+        0.9133280797104956
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "grouped_in_distribution",
+    "seed": 20261016,
+    "fraction": 0.5,
+    "n_train": 144,
+    "n_test": 72,
+    "n_train_groups": 72,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8528420391460505
+    },
+    "physics_3p": {
+      "theta": [
+        -0.1492556512807791,
+        1.2625564456337517,
+        0.7495088850859445
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "grouped_in_distribution",
+    "seed": 20261016,
+    "fraction": 0.75,
+    "n_train": 216,
+    "n_test": 72,
+    "n_train_groups": 108,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8692293634145382
+    },
+    "physics_3p": {
+      "theta": [
+        -0.14441749926746308,
+        1.371060652738925,
+        0.21313706825390483
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "grouped_in_distribution",
+    "seed": 20261016,
+    "fraction": 1.0,
+    "n_train": 288,
+    "n_test": 72,
+    "n_train_groups": 144,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8556910120612398
+    },
+    "physics_3p": {
+      "theta": [
+        -0.17840717683582935,
+        1.4367360852466957,
+        0.14628430461692987
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "middle_phi_interpolation",
+    "seed": 20261016,
+    "fraction": 1.0,
+    "n_train": 288,
+    "n_test": 72,
+    "n_train_groups": 144,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8333132673338466
+    },
+    "physics_3p": {
+      "theta": [
+        -0.20727557525601406,
+        1.1949109696959876,
+        0.4130476290103237
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "high_phi_extrapolation",
+    "seed": 20261016,
+    "fraction": 1.0,
+    "n_train": 288,
+    "n_test": 72,
+    "n_train_groups": 144,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.840842357039967
+    },
+    "physics_3p": {
+      "theta": [
+        -0.1935719021705088,
+        1.3501950771921107,
+        0.2603465022123714
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "anisotropic_family_shift",
+    "seed": 20261016,
+    "fraction": 1.0,
+    "n_train": 240,
+    "n_test": 120,
+    "n_train_groups": 120,
+    "n_test_groups": 60,
+    "physics_1p": {
+      "a": 0.8098679267059302
+    },
+    "physics_3p": {
+      "theta": [
+        -0.2205391930314399,
+        2.0846808132797485,
+        0.39513520680804215
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "grouped_in_distribution",
+    "seed": 20261017,
+    "fraction": 0.25,
+    "n_train": 72,
+    "n_test": 72,
+    "n_train_groups": 36,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8310401099788137
+    },
+    "physics_3p": {
+      "theta": [
+        -0.2249984858313116,
+        1.6561736757329681,
+        0.016600999861383435
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "grouped_in_distribution",
+    "seed": 20261017,
+    "fraction": 0.5,
+    "n_train": 144,
+    "n_test": 72,
+    "n_train_groups": 72,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8532745918523574
+    },
+    "physics_3p": {
+      "theta": [
+        -0.17826233850681783,
+        1.49531377148341,
+        0.16347207294873714
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "grouped_in_distribution",
+    "seed": 20261017,
+    "fraction": 0.75,
+    "n_train": 216,
+    "n_test": 72,
+    "n_train_groups": 108,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.823768079106578
+    },
+    "physics_3p": {
+      "theta": [
+        -0.20945122432904204,
+        1.412556691425497,
+        0.20341255995883167
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "grouped_in_distribution",
+    "seed": 20261017,
+    "fraction": 1.0,
+    "n_train": 288,
+    "n_test": 72,
+    "n_train_groups": 144,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8315989297845754
+    },
+    "physics_3p": {
+      "theta": [
+        -0.2015521426137137,
+        1.4736557803998738,
+        0.09021437390254625
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "middle_phi_interpolation",
+    "seed": 20261017,
+    "fraction": 1.0,
+    "n_train": 288,
+    "n_test": 72,
+    "n_train_groups": 144,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8333132673338466
+    },
+    "physics_3p": {
+      "theta": [
+        -0.20727557525601406,
+        1.1949109696959876,
+        0.4130476290103237
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "high_phi_extrapolation",
+    "seed": 20261017,
+    "fraction": 1.0,
+    "n_train": 288,
+    "n_test": 72,
+    "n_train_groups": 144,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.840842357039967
+    },
+    "physics_3p": {
+      "theta": [
+        -0.1935719021705088,
+        1.3501950771921107,
+        0.2603465022123714
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "anisotropic_family_shift",
+    "seed": 20261017,
+    "fraction": 1.0,
+    "n_train": 240,
+    "n_test": 120,
+    "n_train_groups": 120,
+    "n_test_groups": 60,
+    "physics_1p": {
+      "a": 0.8098679267059302
+    },
+    "physics_3p": {
+      "theta": [
+        -0.2205391930314399,
+        2.0846808132797485,
+        0.39513520680804215
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "grouped_in_distribution",
+    "seed": 20261018,
+    "fraction": 0.25,
+    "n_train": 72,
+    "n_test": 72,
+    "n_train_groups": 36,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8875882532640229
+    },
+    "physics_3p": {
+      "theta": [
+        -0.12610720191784303,
+        1.2514059924109509,
+        0.7361890464718926
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "grouped_in_distribution",
+    "seed": 20261018,
+    "fraction": 0.5,
+    "n_train": 144,
+    "n_test": 72,
+    "n_train_groups": 72,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8840574043854067
+    },
+    "physics_3p": {
+      "theta": [
+        -0.1476891304285916,
+        1.3085650390880867,
+        0.3671522050895051
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "grouped_in_distribution",
+    "seed": 20261018,
+    "fraction": 0.75,
+    "n_train": 216,
+    "n_test": 72,
+    "n_train_groups": 108,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8710898924796097
+    },
+    "physics_3p": {
+      "theta": [
+        -0.1621868491090507,
+        1.4017123012164803,
+        0.09795836253234894
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "grouped_in_distribution",
+    "seed": 20261018,
+    "fraction": 1.0,
+    "n_train": 288,
+    "n_test": 72,
+    "n_train_groups": 144,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8444950778710802
+    },
+    "physics_3p": {
+      "theta": [
+        -0.19721549597999666,
+        1.4220828642892382,
+        0.17640947339361426
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "middle_phi_interpolation",
+    "seed": 20261018,
+    "fraction": 1.0,
+    "n_train": 288,
+    "n_test": 72,
+    "n_train_groups": 144,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8333132673338466
+    },
+    "physics_3p": {
+      "theta": [
+        -0.20727557525601406,
+        1.1949109696959876,
+        0.4130476290103237
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "high_phi_extrapolation",
+    "seed": 20261018,
+    "fraction": 1.0,
+    "n_train": 288,
+    "n_test": 72,
+    "n_train_groups": 144,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.840842357039967
+    },
+    "physics_3p": {
+      "theta": [
+        -0.1935719021705088,
+        1.3501950771921107,
+        0.2603465022123714
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "anisotropic_family_shift",
+    "seed": 20261018,
+    "fraction": 1.0,
+    "n_train": 240,
+    "n_test": 120,
+    "n_train_groups": 120,
+    "n_test_groups": 60,
+    "physics_1p": {
+      "a": 0.8098679267059302
+    },
+    "physics_3p": {
+      "theta": [
+        -0.2205391930314399,
+        2.0846808132797485,
+        0.39513520680804215
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "grouped_in_distribution",
+    "seed": 20261019,
+    "fraction": 0.25,
+    "n_train": 72,
+    "n_test": 72,
+    "n_train_groups": 36,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.7842650746818935
+    },
+    "physics_3p": {
+      "theta": [
+        -0.44043551982637136,
+        0.8434350293138398,
+        2.1840908424271346
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "grouped_in_distribution",
+    "seed": 20261019,
+    "fraction": 0.5,
+    "n_train": 144,
+    "n_test": 72,
+    "n_train_groups": 72,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.842522174082323
+    },
+    "physics_3p": {
+      "theta": [
+        -0.15138775159849566,
+        1.168231158502572,
+        0.3401183665700148
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "grouped_in_distribution",
+    "seed": 20261019,
+    "fraction": 0.75,
+    "n_train": 216,
+    "n_test": 72,
+    "n_train_groups": 108,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8506051190240593
+    },
+    "physics_3p": {
+      "theta": [
+        -0.156033311322443,
+        1.3219236755043704,
+        0.01295797468675634
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "grouped_in_distribution",
+    "seed": 20261019,
+    "fraction": 1.0,
+    "n_train": 288,
+    "n_test": 72,
+    "n_train_groups": 144,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8402954845677586
+    },
+    "physics_3p": {
+      "theta": [
+        -0.18314739144111716,
+        1.2456260580283989,
+        0.26910175630031424
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "middle_phi_interpolation",
+    "seed": 20261019,
+    "fraction": 1.0,
+    "n_train": 288,
+    "n_test": 72,
+    "n_train_groups": 144,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8333132673338466
+    },
+    "physics_3p": {
+      "theta": [
+        -0.20727557525601406,
+        1.1949109696959876,
+        0.4130476290103237
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "high_phi_extrapolation",
+    "seed": 20261019,
+    "fraction": 1.0,
+    "n_train": 288,
+    "n_test": 72,
+    "n_train_groups": 144,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.840842357039967
+    },
+    "physics_3p": {
+      "theta": [
+        -0.1935719021705088,
+        1.3501950771921107,
+        0.2603465022123714
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "anisotropic_family_shift",
+    "seed": 20261019,
+    "fraction": 1.0,
+    "n_train": 240,
+    "n_test": 120,
+    "n_train_groups": 120,
+    "n_test_groups": 60,
+    "physics_1p": {
+      "a": 0.8098679267059302
+    },
+    "physics_3p": {
+      "theta": [
+        -0.2205391930314399,
+        2.0846808132797485,
+        0.39513520680804215
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "grouped_in_distribution",
+    "seed": 20261020,
+    "fraction": 0.25,
+    "n_train": 72,
+    "n_test": 72,
+    "n_train_groups": 36,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8058808255563386
+    },
+    "physics_3p": {
+      "theta": [
+        -0.3818184298647417,
+        1.2602834126615405,
+        1.5968352702124344
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "grouped_in_distribution",
+    "seed": 20261020,
+    "fraction": 0.5,
+    "n_train": 144,
+    "n_test": 72,
+    "n_train_groups": 72,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.845557194058888
+    },
+    "physics_3p": {
+      "theta": [
+        -0.33328135318180735,
+        1.5927624291200175,
+        0.8672282648252925
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "grouped_in_distribution",
+    "seed": 20261020,
+    "fraction": 0.75,
+    "n_train": 216,
+    "n_test": 72,
+    "n_train_groups": 108,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8248242101469578
+    },
+    "physics_3p": {
+      "theta": [
+        -0.2754864950279497,
+        1.4352902698027805,
+        0.6932253463059057
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "grouped_in_distribution",
+    "seed": 20261020,
+    "fraction": 1.0,
+    "n_train": 288,
+    "n_test": 72,
+    "n_train_groups": 144,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8145671249738095
+    },
+    "physics_3p": {
+      "theta": [
+        -0.2245293948891391,
+        1.3402458857285955,
+        0.36370282987074615
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "middle_phi_interpolation",
+    "seed": 20261020,
+    "fraction": 1.0,
+    "n_train": 288,
+    "n_test": 72,
+    "n_train_groups": 144,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8333132673338466
+    },
+    "physics_3p": {
+      "theta": [
+        -0.20727557525601406,
+        1.1949109696959876,
+        0.4130476290103237
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "high_phi_extrapolation",
+    "seed": 20261020,
+    "fraction": 1.0,
+    "n_train": 288,
+    "n_test": 72,
+    "n_train_groups": 144,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.840842357039967
+    },
+    "physics_3p": {
+      "theta": [
+        -0.1935719021705088,
+        1.3501950771921107,
+        0.2603465022123714
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "anisotropic_family_shift",
+    "seed": 20261020,
+    "fraction": 1.0,
+    "n_train": 240,
+    "n_test": 120,
+    "n_train_groups": 120,
+    "n_test_groups": 60,
+    "physics_1p": {
+      "a": 0.8098679267059302
+    },
+    "physics_3p": {
+      "theta": [
+        -0.2205391930314399,
+        2.0846808132797485,
+        0.39513520680804215
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "grouped_in_distribution",
+    "seed": 20261021,
+    "fraction": 0.25,
+    "n_train": 72,
+    "n_test": 72,
+    "n_train_groups": 36,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.7912035071324831
+    },
+    "physics_3p": {
+      "theta": [
+        -0.24439853177962723,
+        1.4032689071424793,
+        -0.6446563845524186
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "grouped_in_distribution",
+    "seed": 20261021,
+    "fraction": 0.5,
+    "n_train": 144,
+    "n_test": 72,
+    "n_train_groups": 72,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8052210255899613
+    },
+    "physics_3p": {
+      "theta": [
+        -0.19686329301306074,
+        1.4059193970423958,
+        -0.5044349665907547
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "grouped_in_distribution",
+    "seed": 20261021,
+    "fraction": 0.75,
+    "n_train": 216,
+    "n_test": 72,
+    "n_train_groups": 108,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8664945618440402
+    },
+    "physics_3p": {
+      "theta": [
+        -0.16467750205615111,
+        1.3016705613044002,
+        -0.01834751695013555
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "grouped_in_distribution",
+    "seed": 20261021,
+    "fraction": 1.0,
+    "n_train": 288,
+    "n_test": 72,
+    "n_train_groups": 144,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8405572143592532
+    },
+    "physics_3p": {
+      "theta": [
+        -0.1804806608708183,
+        1.2521172237622928,
+        0.3210850492247102
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "middle_phi_interpolation",
+    "seed": 20261021,
+    "fraction": 1.0,
+    "n_train": 288,
+    "n_test": 72,
+    "n_train_groups": 144,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8333132673338466
+    },
+    "physics_3p": {
+      "theta": [
+        -0.20727557525601406,
+        1.1949109696959876,
+        0.4130476290103237
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "high_phi_extrapolation",
+    "seed": 20261021,
+    "fraction": 1.0,
+    "n_train": 288,
+    "n_test": 72,
+    "n_train_groups": 144,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.840842357039967
+    },
+    "physics_3p": {
+      "theta": [
+        -0.1935719021705088,
+        1.3501950771921107,
+        0.2603465022123714
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "anisotropic_family_shift",
+    "seed": 20261021,
+    "fraction": 1.0,
+    "n_train": 240,
+    "n_test": 120,
+    "n_train_groups": 120,
+    "n_test_groups": 60,
+    "physics_1p": {
+      "a": 0.8098679267059302
+    },
+    "physics_3p": {
+      "theta": [
+        -0.2205391930314399,
+        2.0846808132797485,
+        0.39513520680804215
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "grouped_in_distribution",
+    "seed": 20261022,
+    "fraction": 0.25,
+    "n_train": 72,
+    "n_test": 72,
+    "n_train_groups": 36,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.7925098392147825
+    },
+    "physics_3p": {
+      "theta": [
+        -0.20610340424148052,
+        1.0516770147313224,
+        0.6600663700938894
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "grouped_in_distribution",
+    "seed": 20261022,
+    "fraction": 0.5,
+    "n_train": 144,
+    "n_test": 72,
+    "n_train_groups": 72,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8494270066002373
+    },
+    "physics_3p": {
+      "theta": [
+        -0.18148856470474098,
+        1.2724291605756377,
+        0.23169962796421284
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "grouped_in_distribution",
+    "seed": 20261022,
+    "fraction": 0.75,
+    "n_train": 216,
+    "n_test": 72,
+    "n_train_groups": 108,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8232433030974269
+    },
+    "physics_3p": {
+      "theta": [
+        -0.24469405531884525,
+        1.3130029261840999,
+        0.5444444406759595
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "grouped_in_distribution",
+    "seed": 20261022,
+    "fraction": 1.0,
+    "n_train": 288,
+    "n_test": 72,
+    "n_train_groups": 144,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8547185284584318
+    },
+    "physics_3p": {
+      "theta": [
+        -0.19846607582312878,
+        1.3661451196172516,
+        0.3440124410244116
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "middle_phi_interpolation",
+    "seed": 20261022,
+    "fraction": 1.0,
+    "n_train": 288,
+    "n_test": 72,
+    "n_train_groups": 144,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.8333132673338466
+    },
+    "physics_3p": {
+      "theta": [
+        -0.20727557525601406,
+        1.1949109696959876,
+        0.4130476290103237
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "high_phi_extrapolation",
+    "seed": 20261022,
+    "fraction": 1.0,
+    "n_train": 288,
+    "n_test": 72,
+    "n_train_groups": 144,
+    "n_test_groups": 36,
+    "physics_1p": {
+      "a": 0.840842357039967
+    },
+    "physics_3p": {
+      "theta": [
+        -0.1935719021705088,
+        1.3501950771921107,
+        0.2603465022123714
+      ],
+      "fit_success": true
+    }
+  },
+  {
+    "protocol": "anisotropic_family_shift",
+    "seed": 20261022,
+    "fraction": 1.0,
+    "n_train": 240,
+    "n_test": 120,
+    "n_train_groups": 120,
+    "n_test_groups": 60,
+    "physics_1p": {
+      "a": 0.8098679267059302
+    },
+    "physics_3p": {
+      "theta": [
+        -0.2205391930314399,
+        2.0846808132797485,
+        0.39513520680804215
+      ],
+      "fit_success": true
+    }
+  }
+]
