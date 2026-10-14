@@ -1,6 +1,6 @@
 # 浙江大学课程汇报 Beamer
 
-正文20页，参考文献2页。科学结果对应porous-thermal-ai v1.0.0，未增加CNN/OOD实验。`main.tex`、`references.bib`与原创科学图件是本项目内容；模板主体`zju_beamer.sty`未修改。
+正文20页，参考文献2页。主实验科学结果对应porous-thermal-ai v1.0.0；v1.1.0候选新增轻量OOD诊断，仅同步讨论与复现页，CNN未执行。`main.tex`、`references.bib`与原创科学图件是本项目内容；模板主体`zju_beamer.sty`未修改。
 
 ## 在Mac上编译
 

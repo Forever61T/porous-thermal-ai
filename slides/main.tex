@@ -195,15 +195,15 @@ Hybrid不必全面胜出；树间SD在高$\phi$全部漏判，距离提示也有
 \section{复现}
 \begin{frame}[fragile]{M4 CPU即可完整复现}
 \begin{lstlisting}[language=python]
-python scripts/run_all.py
+python scripts/run_all.py --with-ood
 \end{lstlisting}
 \begin{itemize}
 \item MacBook Air M4，macOS，Python3.12.14，CPU。
-\item GitHub新clone重算38.6秒；9测试，49行指标/70计划一致。
+\item 候选新clone重算47.5秒；11测试，主实验与OOD冻结复核通过。
 \item \url{https://github.com/Forever61T/porous-thermal-ai}
 \item v1.0.0主指标冻结；v1.1.0候选含轻量OOD诊断，无CNN。
 \end{itemize}
-\source{38.6秒为原主流程历史实测，不含安装；候选新增2项隔离测试，共11项。}
+\source{47.5秒包含补充诊断，不含安装；主实验49行/70计划，OOD16行/40计划。}
 \end{frame}
 \section{文献}
 \begin{frame}[allowframebreaks]{参考文献}\footnotesize\reference\end{frame}

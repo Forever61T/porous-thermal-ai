@@ -257,7 +257,7 @@ RF与Hybrid在同分布下平均误差接近，未证实稳定小数据优势。
 
 # 附录 复现与补充结果
 
-正式平台为MacBook Air M4、macOS27.0、Python3.12.14、CPU。固定NumPy2.3.5、pandas2.2.3、SciPy1.16.2、scikit-learn1.7.2和Matplotlib3.10.7等8个直接依赖。运行python scripts/run_all.py可重建FVM标签、冻结模型、统计表和科学图件；49行主实验汇总、70个划分计划均与参考一致；原v1.0.0有9项测试，本轮新增2项隔离检查，共11项通过。GitHub新clone重算约38.6秒，依赖安装不计入耗时。
+正式平台为MacBook Air M4、macOS27.0、Python3.12.14、CPU。固定NumPy2.3.5、pandas2.2.3、SciPy1.16.2、scikit-learn1.7.2和Matplotlib3.10.7等8个直接依赖。运行python scripts/run_all.py可重建FVM标签、冻结模型、统计表和科学图件；加--with-ood执行补充诊断。候选版本从GitHub新clone重算共47.5秒，11项测试通过，49行主实验指标及70个划分、16行诊断指标及40个计划均与冻结参考一致。耗时不含安装。
 
 代码与合成数据公开于https://github.com/Forever61T/porous-thermal-ai。科学结果对应v1.0.0，commit cf9ab4bf12532dbe9890f39974dcaa968c7d4243；本轮文稿、Beamer和轻量OOD诊断准备为v1.1.0候选，尚未发布Release。实验作者数据及其逐行衍生结果按来源许可处理，公开版本不重新分发。代码和文稿由Codex辅助实现与整理，提交者应核对并按课程要求披露工具使用。
 

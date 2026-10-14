@@ -54,7 +54,7 @@ openpyxl仅用于可选外部Excel审计；保留它是为了同一小环境支�
 python scripts/run_all.py
 ```
 
-默认重新生成360图/FVM标签，运行全部冻结No.1实验、30例网格检查、图件、9测试和49指标/70划分核对。
+默认重新生成360图/FVM标签，运行全部冻结No.1实验、30例网格检查、图件、11项测试和49指标/70划分核对。
 先前缓存会备份到`data/interim/reproduction_backups/`。不要修改`references/frozen_phase3/`。
 
 No.1不需要外部数据下载。真实气凝胶数据库由于许可不明未随仓库分发；默认跳过这项附加检查。可选步骤见`docs/external_sources.md`。
@@ -68,7 +68,7 @@ No.1不需要外部数据下载。真实气凝胶数据库由于许可不明未�
 | `results/phase3/tables/metrics_summary.csv` | 49行，MAE/RMSE/R² mean/std/count |
 | `results/phase3/tables/splits.json` | 70计划，母结构交叠为0 |
 | `results/phase3/figures/` | 自动生成PNG/PDF；无可选现实图时有10类图 |
-| 终端 | `9 passed`，最后`FULL_REPRODUCTION_PASS` |
+| 终端 | `11 passed`，最后`FULL_REPRODUCTION_PASS` |
 | `results/reproduction/<UTC时间>/machine_record.json` | status=FULL_REPRODUCTION_PASS及实际耗时/版本 |
 
 | 区域 | RF MAE | Hybrid MAE | 原Physics MAE | 3p Physics MAE |
@@ -100,7 +100,7 @@ CI只检验数值解析极限和泄漏测试，不宣称Ubuntu与M4所有模型�
 # 当前v1.1.0候选附加说明
 
 正式平台仍为MacBook Air M4 CPU。主实验49行指标和70划分不变；原v1.0.0测试9项，本轮新增2项隔离检查，共11项。
-需要连同轻量OOD扩展复现时，在已按下文建立的环境中执行：
+需要连同轻量OOD扩展复现时，在已按上文建立的环境中执行：
 
 ```bash
 python scripts/run_all.py --with-ood
@@ -108,4 +108,6 @@ python scripts/build_course_report.py
 ```
 
 `results/ood/`应有16行汇总、40个fit/calibration/test计划、评分CSV及图。默认`run_all.py`继续只执行主科学流程；报告Markdown和Word/PDF排版为独立作者流程。没有CNN或GPU环境。
+
+候选代码`717bdee720853fff64cdcf4557bbcf01406de934`已从GitHub重新clone，在同一干净M4环境执行`run_all.py --with-ood`：47.5秒、11项测试通过、主实验49行/70计划及诊断16行/40计划均通过，指标最大绝对差为0。该时间不含依赖安装，也不保证其他机器相同速度。完整证据见`docs/evidence/release_candidate_replay.json`。
 

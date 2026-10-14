@@ -122,6 +122,8 @@ MacBook Air M4、macOS27.0、Python3.12.14、CPU。
 
 10次同分布分组留出；固定外推区域的10个seed只改变森林，不能当10个独立OOD。CI跑解析/泄漏单元测试，完整数值复现以M4记录为准。
 
+本轮v1.1.0候选`717bdee`已从GitHub新clone执行`run_all.py --with-ood`：总计47.5秒，11项测试通过；主实验49行/70计划、诊断16行/40计划均与冻结参考一致，最大数值差0。报告源文也从保存的CSV重建并核对。[候选完整复现证据](docs/evidence/release_candidate_replay.json)。文稿/排版后的文档更新不改变这份已验证的科学代码。
+
 ## Data
 
 可公开：我们生成的合成No.1表、配方规则、FVM标签、分组计划、结果与原图。
