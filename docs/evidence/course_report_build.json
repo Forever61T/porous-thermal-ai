@@ -1,0 +1,19 @@
+{
+  "sections_edited_sequentially": [
+    "00_abstract.md",
+    "01_intro.md",
+    "02_methods.md",
+    "03_results.md",
+    "04_discussion.md",
+    "05_conclusion.md"
+  ],
+  "metrics_sha256": "9a31353b1525b12f9eadb8efb2f127c740b7472c8cee1832169178dcf132b371",
+  "scientific_config_sha256": {
+    "no1.json": "caf45671a2ee2ad74889b8f48ad53c68d2791883e07fe6139944417b4be489bc",
+    "phase3.json": "2d1a0c89d40a72c087b492198b99774af648a3ad9b1996768ce2cb513670b0de"
+  },
+  "old_report_preserved": true,
+  "template_confirmation": "User confirmed course-report migration on 2026-10-14",
+  "chinese_characters": 5064,
+  "new_experiments": "light OOD diagnostic only; canonical Phase 3 unchanged"
+}

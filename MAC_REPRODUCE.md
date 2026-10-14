@@ -97,3 +97,15 @@ python -m pytest -q
 
 先确认激活了`.venv`并在根目录。查看对应`console.log`和机器记录；保留报错，不改参考分数、不扩大容差。
 CI只检验数值解析极限和泄漏测试，不宣称Ubuntu与M4所有模型分数逐位相同。
+# 当前v1.1.0候选附加说明
+
+正式平台仍为MacBook Air M4 CPU。主实验49行指标和70划分不变；原v1.0.0测试9项，本轮新增2项隔离检查，共11项。
+需要连同轻量OOD扩展复现时，在已按下文建立的环境中执行：
+
+```bash
+python scripts/run_all.py --with-ood
+python scripts/build_course_report.py
+```
+
+`results/ood/`应有16行汇总、40个fit/calibration/test计划、评分CSV及图。默认`run_all.py`继续只执行主科学流程；报告Markdown和Word/PDF排版为独立作者流程。没有CNN或GPU环境。
+

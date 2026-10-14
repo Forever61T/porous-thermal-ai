@@ -7,7 +7,9 @@ Physics + machine learning for thermal transport in complex porous structures.
 **气凝胶启发的二维多孔介质导热预测：物理模型、机器学习与混合模型的适用边界。**
 
 这是二维数值方法验证，不是实验气凝胶热导率预测，也不是PINN。
-完整[技术报告](reports/Final_Technical_Report.md)（[PDF](reports/Final_Technical_Report.pdf)）、[复现说明](MAC_REPRODUCE.md)、[代码导读](CODE_WALKTHROUGH.md)。
+最新版[课程模板报告源文](reports/Final_Course_Report.md)、[复现说明](MAC_REPRODUCE.md)、[代码导读](CODE_WALKTHROUGH.md)和[浙江大学Beamer源文件](slides/README.md)。
+模板版Word/PDF用于本地课程交付，含用户模板的机构图形，不重新分发原模板或将其归入本项目许可。
+[v1.0.0报告与无模板PDF](reports/Final_Technical_Report.md)保留为历史版本。当前准备v1.1.0候选，尚未发布新Release。
 
 ## Why this project?
 
@@ -55,6 +57,15 @@ flowchart TD
 
 ![Applicability map](reports/figures/Figure8_applicability.png)
 
+## Can the model warn about unreliable predictions?
+
+轻量OOD诊断采用独立训练/校准/测试母组，沿用RF参数；不替换上表的主实验数值。
+训练侧标准化后的最近邻距离，对IID、中间φ缺口、高φ外推、未见族的告警率分别为7.5%、16.7%、52.8%、100%。
+RF树间标准差在高φ区告警率为0：多个树可以共同给出相近但错误的预测。
+高φ诊断RF绝对MAE为0.875，低于IID的1.827，但相对误差63.0%，高于IID的15.0%。不能混淆跨域误差尺度。
+
+这些是当前数据下的有限风险提示，树间SD不是校准区间；[全部成功与漏判](docs/refinement/OOD_UNCERTAINTY_EXPERIMENT.md)均保留。CNN未执行，无GPU依赖。
+
 ## Repository structure
 
 ```text
@@ -85,11 +96,21 @@ python -m pip install -r requirements.txt
 python scripts/run_all.py
 ```
 
+包含轻量OOD诊断和冻结复核：
+
+```bash
+python scripts/run_all.py --with-ood
+python scripts/build_course_report.py
+```
+
+第二个命令只从保存的CSV与逐节编辑源重建报告Markdown，不训练模型、不自动导出Word/PDF。
+
 初学者请先读[逐步说明](MAC_REPRODUCE.md)。8个直接依赖，无GPU、深度网络或大型MLOps。
 
 ## Expected output
 
-360个FVM标签、70个划分计划、49行汇总、消融/数据量/区域诊断图和9项测试。
+360个FVM标签、70个划分计划、49行主汇总、消融/数据量/区域诊断图。
+原v1.0.0为9项测试；当前新增2项OOD隔离检查，共11项。`--with-ood`额外生成16行诊断汇总、40个训练/校准/测试计划和逐样本评分，不覆盖主实验结果。
 最后应出现`FULL_REPRODUCTION_PASS`；实际证据存到`results/reproduction/<timestamp>/`。
 报告PDF是审阅过的交付文件；run_all重建数据/模型/科学图表，**不自动重排最终报告PDF**。
 
@@ -121,4 +142,4 @@ MacBook Air M4、macOS27.0、Python3.12.14、CPU。
 物理/结构动机来自Bruggeman、Wei等形貌导热工作；工程思路参考Moosavi等母结构分组、MAST-ML和OpenPNM；RF/Ridge使用scikit-learn。
 详见[归属说明](docs/external_sources.md)。代码和文稿由Codex辅助实现与整理；提交者仍需阅读、核对并按课程要求披露，不声称由学生手工独立编写全部代码。
 
-课程[逐项符合性](FINAL_ASSIGNMENT_COMPLIANCE.md)与[最终验收/扣分风险](FINAL_ASSIGNMENT_AUDIT.md)。
+课程[最新要求复核V2](docs/refinement/FINAL_ASSIGNMENT_AUDIT_V2.md)、[文风审计](docs/refinement/ACADEMIC_STYLE_AUDIT.md)、[发布候选检查](RELEASE_CANDIDATE_CHECKLIST.md)。

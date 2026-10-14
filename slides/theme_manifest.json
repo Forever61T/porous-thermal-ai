@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/qychen2001/ZJU-Beamer-Template",
+  "commit": "a276635341cee0e5b31c5ac004a1999fb3c9785b",
+  "sha256": {
+    "zju_beamer.sty": "a87fab7468c9380d54cf0895b3afcafb223e8e6329b1be5e46d4a844c38bca3d",
+    "figures/background.png": "f8d05394e37366fbd2f24c41f48a9821163c722521b546859a4fe1951134133f",
+    "figures/char.pdf": "682cb764b3917b346dccf28b7b051d921015daf68084bc679d0b0a237ede0b96",
+    "figures/logo.pdf": "9d3b92847e7f1545576d07d9ea64837d6714f0b0d9645b0a0867c0f102d1f673"
+  }
+}

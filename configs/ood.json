@@ -1,0 +1,12 @@
+{
+  "calibration_fraction": 0.2,
+  "calibration_seed_offset": 50000,
+  "alert_quantile": 0.95,
+  "quantile_method": "higher",
+  "scores": ["nn_distance", "tree_std"],
+  "group_aggregation": "maximum score over the two rotations",
+  "model_parameters": "unchanged configs/phase3.json",
+  "threshold_selection": "calibration groups only; no test labels",
+  "hyperparameter_search": false,
+  "prediction_intervals": false
+}

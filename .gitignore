@@ -32,3 +32,19 @@ results/tables/no1_audit_summary.json
 results/tables/no2_*
 references/external_code/
 references/papers/
+
+# Upstream institution brand assets fetched locally; not relicensed here.
+slides/zju_beamer.sty
+slides/figures/background.png
+slides/figures/char.pdf
+slides/figures/logo.pdf
+slides/main.pdf
+slides/*.aux
+slides/*.log
+slides/*.nav
+slides/*.out
+slides/*.snm
+slides/*.toc
+slides/*.bbl
+slides/*.blg
+slides/*.vrb
