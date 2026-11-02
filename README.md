@@ -142,6 +142,6 @@ MacBook Air M4、macOS27.0、Python3.12.14、CPU。
 ## Acknowledgements
 
 物理/结构动机来自Bruggeman、Wei等形貌导热工作；工程思路参考Moosavi等母结构分组、MAST-ML和OpenPNM；RF/Ridge使用scikit-learn。
-详见[归属说明](docs/external_sources.md)。代码和文稿由Codex辅助实现与整理；提交者仍需阅读、核对并按课程要求披露，不声称由学生手工独立编写全部代码。
+详见[归属说明](docs/external_sources.md)。代码与文稿在 Codex、DSH 辅助下完成。
 
 课程[最新要求复核V2](docs/refinement/FINAL_ASSIGNMENT_AUDIT_V2.md)、[文风审计](docs/refinement/ACADEMIC_STYLE_AUDIT.md)、[发布候选检查](RELEASE_CANDIDATE_CHECKLIST.md)。
